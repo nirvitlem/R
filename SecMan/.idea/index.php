@@ -10,20 +10,22 @@
 <body>
 
 <form method="post" action="process.php">
-    <label>First Name</label>
-    <input type="text" name="first_name" />
+    <label>שבוע מספר</label>
+    <input type="int" name="week_name" />
     <br />
-    <label>Last Name</label>
-    <input type="text" name="last_name" />
+    <label>תאריך התחלה</label>
+    <input type="date" name="statdate" />
     <br />
-    <label>Department</label>
-    <input type="text" name="department" />
+    <label>תאריך סיום</label>
+    <input type="date" name="enddate" />
     <br />
-    <label>Email</label>
-    <input type="text" name="email" />
-
+    <label>הערות</label>
+    <input type="text" name="text" />
     <br />
-    <input type="submit" value="Add Employee">
+    <label>ימי עבודה</label>
+    <input type="text" name="workingdays" />
+    <br />
+    <input type="submit" value="הוסף שבוע">
 </form>
 
 
