@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<form method="post" action="">
+<form method="post" action="process.php">
     <label>First Name</label>
     <input type="text" name="first_name" />
     <br />
