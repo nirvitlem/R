@@ -14,7 +14,7 @@ mysqli_query($connect,"INSERT INTO employees1 (first_name,last_name,department,e
 
 if(mysqli_affected_rows($connect) > 0){
     echo "<p>Employee Added</p>";
-    echo "<a href="index.html">Go Back</a>";
+    echo "<a href='index.php'>Go Back</a>";
 } else {
     echo "Employee NOT Added<br />";
     echo mysqli_error ($connect);
