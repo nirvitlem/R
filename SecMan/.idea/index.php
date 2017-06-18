@@ -1,8 +1,10 @@
+
 <html>
 <head>
     <style>
         label{display:inline-block;width:100px;margin-bottom:10px;}
     </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 
     <title>הוסף שבועות</title>
@@ -14,7 +16,7 @@
     <input type="int" name="week_name" />
     <br />
     <label>תאריך התחלה</label>
-    <input type="date" name="statdate" />
+    <input type="date" name="startdate" />
     <br />
     <label>תאריך סיום</label>
     <input type="date" name="enddate" />

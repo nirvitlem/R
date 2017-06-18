@@ -1,16 +1,19 @@
 <?php
 
+include 'database.php';
 // create a variable
-$first_name=$_POST['first_name'];
-$last_name=$_POST['last_name'];
-$department=$_POST['department'];
-$email=$_POST['email'];
+
+$week_name=$_POST['week_name'];
+$startdate=$_POST['startdate'];
+$enddate=$_POST['enddate'];
+$text=$_POST['text'];
+$workingdays=$_POST['workingdays'];
 
 //Execute the query
 
 
-mysqli_query($connect,"INSERT INTO employees1 (first_name,last_name,department,email)
-		        VALUES ('$first_name','$last_name','$department','$email')");
+mysqli_query($connect,"INSERT INTO weeks (week_name,startdate,enddate,text,workingdays)
+		        VALUES ('$week_name','$startdate','$enddate','$text','$workingdays')");
 
 if(mysqli_affected_rows($connect) > 0){
     echo "<p>Employee Added</p>";
