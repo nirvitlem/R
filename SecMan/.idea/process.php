@@ -1,6 +1,6 @@
 <?php
 
-include 'database.php';
+
 // create a variable
 
 $week_name=$_POST['week_name'];
