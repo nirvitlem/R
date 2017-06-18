@@ -1,13 +1,16 @@
 <?php
-include 'database.php';
+include('./DBConnect.php');
+
+$DBC = new DBConnect('secmandb');
+
 
 $sql = 'SELECT * 
 		FROM weeks';
 
-$query = mysqli_query($connect, $sql);
+$query = mysqli_query($DBC->returnMySqli(), $sql);
 
 if (!$query) {
-    die ('SQL Error: ' . mysqli_error($connect));
+    die ('SQL Error: ' . mysqli_error($DBC->returnMySqli()));
 }
 
 ?>
