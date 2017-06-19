@@ -51,7 +51,6 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
     </style>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
     <title><?php echo $titleHtmlViewName; ?></title>
 
@@ -173,8 +172,9 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
 <h1></h1>
 <div style="position: absolute; left: 200px; top: 50px;">
 
-<form >
+<form action="index.php?t=<?php echo $tableName ?>" method="post">
         <?php
+
         $index=0;
         foreach ($TableArrayKeyValues as $x=>$x_value)
         {
@@ -188,13 +188,8 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
         }
 
         ?>
-        <input type="button"  onclick="insertJs()" value ='<?php echo $buttonViewName; ?>' />
-        <script>
-            function insertJs(){
-                jQuery.post('http://localhost/index.php', {name:"<?php echo $tableName;?>"});
-            }
+        <input type="submit"   value ='<?php echo $buttonViewName; ?>' />
 
-        </script>
 </form>
 
 </div>
@@ -206,27 +201,29 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
     }
     public function insert($tableName){
 
+        /* var_dump($_POST);
+        echo $_POST["week_name/"]; */
         $columns ="";
         $values="";
         foreach ($this->TableArrayKeyValuesClass as $x=>$x_value) {
             if ($x != $this->pKeyClass)
             {
                 $columns .=$x.", ";
-                $values  .=$_GET["$x"].", ";
+                $values  .="'".$_POST[$x."/"]."', ";
             }
         }
         $columns=rtrim($columns,", ");
         $values=rtrim($values,", ");
-        var_dump($columns);
-        var_dump($values);
+        /* var_dump($columns);
+        var_dump($values);*/
         $query = "INSERT INTO $tableName ($columns) VALUES ($values)";
+        /*var_dump($query);*/
         mysqli_query($this->connect, $query);
-        if(mysqli_affected_rows($this->connectt) > 0){
-            echo "<p>תקין</p>";
-            echo "<a href='index.php'>חזור אחורה</a>";
+        if(mysqli_affected_rows($this->connect) > 0){
+            return 1;
         } else {
-            echo "לא תקין<br />";
-            echo mysqli_error ($this->connect);
+           /* var_dump(mysqli_error ($this->connect));*/
+            return 0;
         }
     }
 }
