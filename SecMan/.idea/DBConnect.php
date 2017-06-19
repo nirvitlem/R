@@ -166,7 +166,7 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
 <h1></h1>
 <h1></h1>
 <div style="position: absolute; left: 200px; top: 50px;">
-    <form method="post" action="process.php">
+
 
         <?php
         $index=0;
@@ -182,13 +182,32 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
         }
 
         ?>
-        <input type="submit" value="<?php echo $buttonViewName; ?>">
-    </form>
+        <input type="submit" onclick="insert($tableName)" value ='<?php echo $buttonViewName; ?>' />
+
 
 </div>
 
 </body>
 </html>
 <?php
+        function insert($tableName){
+
+            foreach ($TableArrayKeyValues as $x=>$x_value) {
+                if ($x != $pKey)
+                {
+                    $columns = implode(", ",$x);
+                    $values  = implode(", ", $x_values);
+                }
+            }
+            $query = "INSERT INTO $tableName ($columns) VALUES ($values)";
+            mysqli_query($this->connect, $query);
+            if(mysqli_affected_rows($this->connectt) > 0){
+                echo "<p>Employee Added</p>";
+                echo "<a href='index.php'>Go Back</a>";
+            } else {
+                echo "Employee NOT Added<br />";
+                echo mysqli_error ($this->connect);
+            }
+        }
     }
 }

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa6b6d4c-cc39-454a-afda-54e748177198" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DBConnect.php" afterPath="$PROJECT_DIR$/.idea/DBConnect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/index.php" afterPath="$PROJECT_DIR$/.idea/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,25 +18,26 @@
       <file leaf-file-name="DBConnect.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/DBConnect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="177" column="53" lean-forward="true" selection-start-line="177" selection-start-column="53" selection-end-line="177" selection-end-column="53" />
+            <state relative-caret-position="97">
+              <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
               <folding>
                 <element signature="n#returnMySqli#0;n#DBConnect#0;n#!!top" expanded="false" />
-                <marker date="1497859488683" expanded="true" signature="645:661" ph="SELECT * FRO... " />
-                <marker date="1497859488683" expanded="true" signature="645:675" ph="SELECT * FRO... .tableName." />
-                <marker date="1497859488683" expanded="true" signature="645:677" ph="SELECT * FRO... ${$tableName}" />
-                <marker date="1497859488683" expanded="true" signature="3044:3187" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3053:3174" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3280:3441" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3284:3428" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3284:3431" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3471:3480" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3504:3536" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3504:4085" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3582:4076" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3628:4068" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3870:3988" ph="..." />
-                <marker date="1497859488683" expanded="true" signature="3952:3988" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="645:661" ph="SELECT * FRO... " />
+                <marker date="1497861740822" expanded="true" signature="645:675" ph="SELECT * FRO... .tableName." />
+                <marker date="1497861740822" expanded="true" signature="645:677" ph="SELECT * FRO... ${$tableName}" />
+                <marker date="1497861740822" expanded="true" signature="3044:3187" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3053:3174" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3280:3441" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3284:3428" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3284:3431" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3471:3480" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3504:3536" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3504:4061" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3582:4052" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3584:4045" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3825:3943" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="3907:3943" ph="..." />
+                <marker date="1497861740822" expanded="true" signature="4387:4437" ph="INSERT INTO ${$tableName}... " />
               </folding>
             </state>
           </provider>
@@ -46,8 +46,8 @@
       <file leaf-file-name="process.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <marker date="1497797225479" expanded="true" signature="226:369" ph="INSERT INTO employees1... " />
               </folding>
@@ -272,7 +272,7 @@
       <workItem from="1497438617200" duration="4383000" />
       <workItem from="1497766839900" duration="5633000" />
       <workItem from="1497795192965" duration="2342000" />
-      <workItem from="1497856774924" duration="2727000" />
+      <workItem from="1497856774924" duration="4904000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1497439265150</created>
@@ -330,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497797520226</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="19/6/2017">
+      <created>1497859517858</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1497859517858</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15085000" />
+    <option name="totallyTimeSpent" value="17262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -410,7 +417,8 @@
     <MESSAGE value="18/6/2017 14:48" />
     <MESSAGE value="18/6/2017 16:46" />
     <MESSAGE value="18/6/2017 17:46" />
-    <option name="LAST_COMMIT_MESSAGE" value="18/6/2017 17:46" />
+    <MESSAGE value="19/6/2017" />
+    <option name="LAST_COMMIT_MESSAGE" value="19/6/2017" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -425,21 +433,22 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#returnMySqli#0;n#DBConnect#0;n#!!top" expanded="false" />
-            <marker date="1497859488683" expanded="true" signature="645:661" ph="SELECT * FRO... " />
-            <marker date="1497859488683" expanded="true" signature="645:675" ph="SELECT * FRO... .tableName." />
-            <marker date="1497859488683" expanded="true" signature="645:677" ph="SELECT * FRO... ${$tableName}" />
-            <marker date="1497859488683" expanded="true" signature="3044:3187" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3053:3174" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3280:3441" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3284:3428" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3284:3431" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3471:3480" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3504:3536" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3504:4085" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3582:4076" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3628:4068" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3870:3988" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3952:3988" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="645:661" ph="SELECT * FRO... " />
+            <marker date="1497861740822" expanded="true" signature="645:675" ph="SELECT * FRO... .tableName." />
+            <marker date="1497861740822" expanded="true" signature="645:677" ph="SELECT * FRO... ${$tableName}" />
+            <marker date="1497861740822" expanded="true" signature="3044:3187" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3053:3174" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3280:3441" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3284:3428" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3284:3431" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3471:3480" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3504:3536" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3504:4061" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3582:4052" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3584:4045" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3825:3943" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3907:3943" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="4387:4437" ph="INSERT INTO ${$tableName}... " />
           </folding>
         </state>
       </provider>
@@ -495,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/process.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
           <folding>
             <marker date="1497797225479" expanded="true" signature="226:369" ph="INSERT INTO employees1... " />
           </folding>
@@ -505,25 +514,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/DBConnect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="177" column="53" lean-forward="true" selection-start-line="177" selection-start-column="53" selection-end-line="177" selection-end-column="53" />
+        <state relative-caret-position="97">
+          <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
           <folding>
             <element signature="n#returnMySqli#0;n#DBConnect#0;n#!!top" expanded="false" />
-            <marker date="1497859488683" expanded="true" signature="645:661" ph="SELECT * FRO... " />
-            <marker date="1497859488683" expanded="true" signature="645:675" ph="SELECT * FRO... .tableName." />
-            <marker date="1497859488683" expanded="true" signature="645:677" ph="SELECT * FRO... ${$tableName}" />
-            <marker date="1497859488683" expanded="true" signature="3044:3187" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3053:3174" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3280:3441" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3284:3428" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3284:3431" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3471:3480" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3504:3536" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3504:4085" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3582:4076" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3628:4068" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3870:3988" ph="..." />
-            <marker date="1497859488683" expanded="true" signature="3952:3988" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="645:661" ph="SELECT * FRO... " />
+            <marker date="1497861740822" expanded="true" signature="645:675" ph="SELECT * FRO... .tableName." />
+            <marker date="1497861740822" expanded="true" signature="645:677" ph="SELECT * FRO... ${$tableName}" />
+            <marker date="1497861740822" expanded="true" signature="3044:3187" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3053:3174" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3280:3441" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3284:3428" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3284:3431" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3471:3480" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3504:3536" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3504:4061" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3582:4052" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3584:4045" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3825:3943" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="3907:3943" ph="..." />
+            <marker date="1497861740822" expanded="true" signature="4387:4437" ph="INSERT INTO ${$tableName}... " />
           </folding>
         </state>
       </provider>
