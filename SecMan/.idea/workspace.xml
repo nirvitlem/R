@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa6b6d4c-cc39-454a-afda-54e748177198" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/process.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DBConnect.php" afterPath="$PROJECT_DIR$/.idea/DBConnect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/index.php" afterPath="$PROJECT_DIR$/.idea/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,38 +20,26 @@
       <file leaf-file-name="DBConnect.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/DBConnect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+            <state relative-caret-position="233">
+              <caret line="200" column="0" lean-forward="true" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
               <folding>
                 <element signature="n#returnMySqli#0;n#DBConnect#0;n#!!top" expanded="false" />
-                <marker date="1497861740822" expanded="true" signature="645:661" ph="SELECT * FRO... " />
-                <marker date="1497861740822" expanded="true" signature="645:675" ph="SELECT * FRO... .tableName." />
-                <marker date="1497861740822" expanded="true" signature="645:677" ph="SELECT * FRO... ${$tableName}" />
-                <marker date="1497861740822" expanded="true" signature="3044:3187" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3053:3174" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3280:3441" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3284:3428" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3284:3431" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3471:3480" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3504:3536" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3504:4061" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3582:4052" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3584:4045" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3825:3943" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="3907:3943" ph="..." />
-                <marker date="1497861740822" expanded="true" signature="4387:4437" ph="INSERT INTO ${$tableName}... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/process.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <marker date="1497797225479" expanded="true" signature="226:369" ph="INSERT INTO employees1... " />
+                <marker date="1497867135217" expanded="true" signature="806:822" ph="SELECT * FRO... " />
+                <marker date="1497867135217" expanded="true" signature="806:836" ph="SELECT * FRO... .tableName." />
+                <marker date="1497867135217" expanded="true" signature="806:838" ph="SELECT * FRO... ${$tableName}" />
+                <marker date="1497867135217" expanded="true" signature="3361:3504" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="3370:3491" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="3597:3758" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="3601:3745" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="3601:3748" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="3788:3797" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="3821:3853" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="3821:4562" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="3899:4553" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="3901:4539" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="4149:4267" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="4231:4267" ph="..." />
+                <marker date="1497867135217" expanded="true" signature="5044:5094" ph="INSERT INTO ${$tableName}... " />
               </folding>
             </state>
           </provider>
@@ -58,8 +48,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,8 +74,8 @@
         <option value="$PROJECT_DIR$/.idea/database.php" />
         <option value="$PROJECT_DIR$/DBConnect.php" />
         <option value="$PROJECT_DIR$/.idea/process.php" />
-        <option value="$PROJECT_DIR$/.idea/index.php" />
         <option value="$PROJECT_DIR$/.idea/DBConnect.php" />
+        <option value="$PROJECT_DIR$/.idea/index.php" />
       </list>
     </option>
   </component>
@@ -272,7 +262,7 @@
       <workItem from="1497438617200" duration="4383000" />
       <workItem from="1497766839900" duration="5633000" />
       <workItem from="1497795192965" duration="2342000" />
-      <workItem from="1497856774924" duration="4904000" />
+      <workItem from="1497856774924" duration="10142000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1497439265150</created>
@@ -337,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497859517858</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="19/6/2017">
+      <created>1497861833254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497861833254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17262000" />
+    <option name="totallyTimeSpent" value="22500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -433,22 +430,22 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#returnMySqli#0;n#DBConnect#0;n#!!top" expanded="false" />
-            <marker date="1497861740822" expanded="true" signature="645:661" ph="SELECT * FRO... " />
-            <marker date="1497861740822" expanded="true" signature="645:675" ph="SELECT * FRO... .tableName." />
-            <marker date="1497861740822" expanded="true" signature="645:677" ph="SELECT * FRO... ${$tableName}" />
-            <marker date="1497861740822" expanded="true" signature="3044:3187" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3053:3174" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3280:3441" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3284:3428" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3284:3431" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3471:3480" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3504:3536" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3504:4061" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3582:4052" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3584:4045" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3825:3943" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3907:3943" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="4387:4437" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1497867135217" expanded="true" signature="806:822" ph="SELECT * FRO... " />
+            <marker date="1497867135217" expanded="true" signature="806:836" ph="SELECT * FRO... .tableName." />
+            <marker date="1497867135217" expanded="true" signature="806:838" ph="SELECT * FRO... ${$tableName}" />
+            <marker date="1497867135217" expanded="true" signature="3361:3504" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3370:3491" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3597:3758" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3601:3745" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3601:3748" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3788:3797" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3821:3853" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3821:4562" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3899:4553" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3901:4539" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="4149:4267" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="4231:4267" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="5044:5094" ph="INSERT INTO ${$tableName}... " />
           </folding>
         </state>
       </provider>
@@ -457,9 +454,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1497797225479" expanded="true" signature="226:369" ph="INSERT INTO employees1... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -484,9 +479,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <marker date="1497797225479" expanded="true" signature="226:369" ph="INSERT INTO employees1... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -494,46 +487,44 @@
     <entry file="file://$PROJECT_DIR$/main.html" />
     <entry file="file://$PROJECT_DIR$/.idea/php.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/database.php" />
-    <entry file="file://$PROJECT_DIR$/.idea/index.php">
+    <entry file="file://$PROJECT_DIR$/.idea/process.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/process.php">
+    <entry file="file://$PROJECT_DIR$/.idea/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <marker date="1497797225479" expanded="true" signature="226:369" ph="INSERT INTO employees1... " />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/DBConnect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+        <state relative-caret-position="233">
+          <caret line="200" column="0" lean-forward="true" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
           <folding>
             <element signature="n#returnMySqli#0;n#DBConnect#0;n#!!top" expanded="false" />
-            <marker date="1497861740822" expanded="true" signature="645:661" ph="SELECT * FRO... " />
-            <marker date="1497861740822" expanded="true" signature="645:675" ph="SELECT * FRO... .tableName." />
-            <marker date="1497861740822" expanded="true" signature="645:677" ph="SELECT * FRO... ${$tableName}" />
-            <marker date="1497861740822" expanded="true" signature="3044:3187" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3053:3174" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3280:3441" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3284:3428" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3284:3431" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3471:3480" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3504:3536" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3504:4061" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3582:4052" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3584:4045" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3825:3943" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="3907:3943" ph="..." />
-            <marker date="1497861740822" expanded="true" signature="4387:4437" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1497867135217" expanded="true" signature="806:822" ph="SELECT * FRO... " />
+            <marker date="1497867135217" expanded="true" signature="806:836" ph="SELECT * FRO... .tableName." />
+            <marker date="1497867135217" expanded="true" signature="806:838" ph="SELECT * FRO... ${$tableName}" />
+            <marker date="1497867135217" expanded="true" signature="3361:3504" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3370:3491" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3597:3758" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3601:3745" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3601:3748" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3788:3797" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3821:3853" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3821:4562" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3899:4553" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="3901:4539" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="4149:4267" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="4231:4267" ph="..." />
+            <marker date="1497867135217" expanded="true" signature="5044:5094" ph="INSERT INTO ${$tableName}... " />
           </folding>
         </state>
       </provider>
