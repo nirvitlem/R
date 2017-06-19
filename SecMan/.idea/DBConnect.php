@@ -26,7 +26,7 @@ class DBConnect
     }
 
 
-    public function createTable($tableName)
+    public function createTableView($titleHtmlViewName,$tableName,$tableViewName,$buttonViewName,$TableArrayKeyValues,$typeArray,$pKey)
     {
 
         $sql = 'SELECT * 
@@ -47,7 +47,7 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 
-    <title>הוסף שבועות</title>
+    <title><?php echo $titleHtmlViewName; ?></title>
 
     <style type="text/css">
     body {
@@ -133,30 +133,30 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
 <h1></h1>
 <h1></h1>
 <table class="data-table">
-    <caption class="title">שבועות</caption>
+    <caption class="title"><?php echo $tableViewName; ?></caption>
     <thead>
     <tr>
-        <th>ID</th>
-        <th>שם שבוע</th>
-        <th>תאריך התחלה</th>
-        <th>תאריך סיום</th>
-        <th>הערות</th>
-        <th>ימי פעילות</th>
+<?php
+    foreach ($TableArrayKeyValues as $x=>$x_value)
+    {
+        echo "<th>" .$x_value."</th>";
+    }
+?>
     </tr>
     </thead>
     <tbody>
     <?php
     while ($row = mysqli_fetch_array($query))
     {
-        echo '<tr>
-					<td>'.$row['id'].'</td>
-					<td>'.$row['week_name'].'</td>
-					<td>'. date('F d, Y', strtotime($row['startdate'])) . '</td>
-					<td>'. date('F d, Y', strtotime($row['enddate'])) . '</td>
-					<td>'. $row['text'] . '</td>
-					<td>'. $row['workingdays'] . '</td>
-				</tr>';
-    }?>
+        echo '<tr>';
+
+             foreach ($TableArrayKeyValues as $x=>$x_value)
+             {
+                 echo '<td>' .$row[''.$x.''].'</td>';
+             }
+		echo '</tr>';
+    }
+  ?>
 </tbody>
 <tfoot>
 </tfoot>
@@ -168,22 +168,21 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
 <div style="position: absolute; left: 200px; top: 50px;">
     <form method="post" action="process.php">
 
-        <input type="int" name="week_name" />
-        <label>שבוע מספר</label>
-        <br />
-        <input type="date" name="startdate" />
-        <label>תאריך התחלה</label>
-        <br />
-        <input type="date" name="enddate" />
-        <label>תאריך סיום</label>
-        <br />
-        <input type="text" name="text" />
-        <label>הערות</label>
-        <br />
-        <input type="text" name="workingdays" />
-        <label>ימי עבודה</label>
-        <br />
-        <input type="submit" value="הוסף שבוע">
+        <?php
+        $index=0;
+        foreach ($TableArrayKeyValues as $x=>$x_value)
+        {
+            if ($x!=$pKey)
+            {
+                echo "<input type=".$typeArray[$index]." name=".$x."/>";
+                echo "<label> ".$x_value." </label>";
+                echo "<br />";
+                $index++;
+            }
+        }
+
+        ?>
+        <input type="submit" value="<?php echo $buttonViewName; ?>">
     </form>
 
 </div>
