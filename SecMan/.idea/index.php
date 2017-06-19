@@ -9,7 +9,15 @@ $DBC->createTableView('הוסף שבועות', 'weeks', "שבועות", "הוס�
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $DBC->insert($_POST["name"]);
+    if ($DBC->insert($_GET['t'])==1)
+    {
+        echo "<label> תקין </label>";
+?>
+        <a href="http://localhost">עמוד ראשי</a>
+
+
+        <?php
+    } else  echo "<label> לא תקין</label>";
 
 }
 
