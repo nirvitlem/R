@@ -46,6 +46,9 @@ class DBConnect
 ?>
 <html>
 <head>
+    <br>
+    <br>
+    <br>
     <style>
         label{display:inline-block;width:100px;margin-bottom:10px;}
     </style>
@@ -113,7 +116,15 @@ class DBConnect
 <h1></h1>
 <h1></h1>
 
+<form action="http://localhost">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="submit"  >דף ראשי </button>
 
+</form>
 
 
 </body>
