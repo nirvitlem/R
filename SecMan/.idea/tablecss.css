@@ -78,3 +78,10 @@ table td {
 {
     background-color: #ffcccc;
 }
+
+form {
+    text-align: center;
+}
+form :last-child{
+    margin-right: 100px;
+}
