@@ -22,6 +22,14 @@
           <option name="url" value="https://android.googlesource.com/platform/packages/apps/Exchange/+/master/src/com/android/exchange?autodive=0" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://omapzoom.org/?p=platform/packages/apps/Exchange.git;a=tree;f=src/com/android/exchange;h=b509488e9786d47bdc258bca6e69a73c369b6fc8;hb=10ff736cbd2a7546bfc5c97cd85d034d9e2f85fa" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://android.googlesource.com/platform/packages/apps/Exchange/" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\nirv\AndroidStudioProjects\" />
